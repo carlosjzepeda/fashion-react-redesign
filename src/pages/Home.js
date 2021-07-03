@@ -41,14 +41,6 @@ const Home = () => {
           <img className='image' src={redlips} alt='redlips' />
         </div>
       </div>
-      <div className='container home'>
-        <div>
-          <h1>Home</h1>
-        </div>
-        <div>
-          <h2>hol</h2>
-        </div>
-      </div>
     </>
   );
 };
