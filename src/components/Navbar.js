@@ -15,7 +15,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink exact to='/enter'>
-                  Entry
+                  Enter
                 </NavLink>
               </li>
               <li>Makeup</li>
@@ -23,10 +23,15 @@ const Navbar = () => {
               <li>Hair</li>
               <li>Collections</li>
               <li>Trending</li>
+              <li className='icons'>
+                <i class='fas fa-search'></i>
+              </li>
+              <li className='icons'>
+                <i class='fas fa-shopping-cart'></i>
+              </li>
             </ul>
           </nav>
         </div>
-        <hr />
       </header>
     </>
   );

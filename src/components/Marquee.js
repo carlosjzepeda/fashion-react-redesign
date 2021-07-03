@@ -17,11 +17,18 @@ const Marquee = () => {
     window.addEventListener("resize", resizeHandler);
     return () => {
       window.removeEventListener("resize", resizeHandler);
-      // marqueeTween.pause().kill();
     };
   }, []);
 
   useEffect(() => {
+    const marqueeInitialSet = () => {
+      gsap.set(marqueeElements.current, {
+        xPercent: -100,
+        x: function (index) {
+          return (screenWidth / 2) * index;
+        },
+      });
+    };
     marqueeInitialSet();
     marqueeTween.current && marqueeTween.current.pause().kill();
     marqueeTween.current = gsap.to(marqueeElements.current, {
@@ -37,15 +44,6 @@ const Marquee = () => {
       },
     });
   }, [screenWidth]);
-
-  const marqueeInitialSet = () => {
-    gsap.set(marqueeElements.current, {
-      xPercent: -100,
-      x: function (index) {
-        return (screenWidth / 2) * index;
-      },
-    });
-  };
 
   const resizeHandler = () => {
     gsap.set(marqueeElements.current, { clearProps: "all" });

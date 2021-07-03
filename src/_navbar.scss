@@ -3,7 +3,7 @@
   position: absolute;
   width: 100vw;
   height: 15vh;
-  background-color: #f5d5ce;
+  background-color: #ffffff;
   align-items: center;
 }
 
@@ -12,7 +12,7 @@ nav {
   display: flex;
   position: absolute;
   justify-content: center;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 600;
 
   ul {
@@ -36,9 +36,16 @@ nav {
   width: 300px;
   font-size: 2em;
   font-weight: 800;
-  
 }
 
-hr{
-  width: 100px;
+
+.search{
+  display: flex;
+  align-self: center;
+  border-radius: 25px;
+  border: none;
+  font-weight: 500;
+  color: black;
+  height: 20px;
+  width: 150px;
 }
