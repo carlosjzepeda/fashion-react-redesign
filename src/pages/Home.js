@@ -1,8 +1,7 @@
 import gsap from "gsap/gsap-core";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import makeup from "../images/laura-chouette-yxcCgzSB_iI-unsplash.jpg";
 import redlips from "../images/nojan-namdar-WIF0xMq2yUo-unsplash.jpg";
-import { ScrollTrigger } from "gsap";
 
 const Home = () => {
   useEffect(() => {
