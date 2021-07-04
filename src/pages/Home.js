@@ -2,8 +2,6 @@ import gsap from "gsap/gsap-core";
 import React, { useEffect } from "react";
 import makeup from "../images/laura-chouette-yxcCgzSB_iI-unsplash.jpg";
 import redlips from "../images/nojan-namdar-WIF0xMq2yUo-unsplash.jpg";
-import blonde from "../images/aggy-wide-B22hPKWDW3k-unsplash.jpg";
-import brunnette from "../images/pouriya-kafaei-dNmmjX2Owxk-unsplash.jpg";
 
 const Home = () => {
   useEffect(() => {
