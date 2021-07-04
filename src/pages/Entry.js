@@ -15,20 +15,6 @@ const Entry = () => {
       ease: "power4",
     });
   }, []);
-  useEffect(() => {
-    gsap.fromTo(
-      ".megan-full",
-      {
-        filter: "drop-shadow(0px 0px 0px #000000)",
-      },
-      {
-        filter: "drop-shadow(15px 15px 10px #000000)",
-        delay: 1.25,
-        duration: 1,
-        ease: "power4",
-      }
-    );
-  }, []);
 
   return (
     <div className='container entry'>
