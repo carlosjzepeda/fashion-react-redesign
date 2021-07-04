@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Marquee from "../components/Marquee";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
-import meganfull from "../images/meganfull.png";
+import meganfull from "../images/megan.png";
 
 const Entry = () => {
   useEffect(() => {
