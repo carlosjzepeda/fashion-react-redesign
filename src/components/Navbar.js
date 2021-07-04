@@ -13,11 +13,6 @@ const Navbar = () => {
                   REVLON
                 </NavLink>
               </li>
-              <li>
-                <NavLink exact to='/enter'>
-                  Enter
-                </NavLink>
-              </li>
               <li>Makeup</li>
               <li>Beauty Tools</li>
               <li>Hair</li>

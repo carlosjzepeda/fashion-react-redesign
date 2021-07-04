@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Route exact path='/enter' component={Entry} />
-      <Route exact path='/' component={Home} />
+      <Route exact path='/' component={Entry} />
+      <Route exact path='/home' component={Home} />
     </Router>
   );
 }

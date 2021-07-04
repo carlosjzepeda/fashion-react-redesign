@@ -40,7 +40,7 @@ const Entry = () => {
         className='animate-entry megan-full'
         alt='Megan The Stallion'
       />
-      <Link exact to='/'>
+      <Link exact to='/home'>
         <button className='animate-entry'>ENTER</button>
       </Link>
     </div>
